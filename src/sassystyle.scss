@@ -1,6 +1,37 @@
 * {
     margin: 0 0 0 0;
-    color: blue;
-    background-color: yellow;
+    color: rgb(24, 21, 21);
+    background-color: maroon;
+}
+
+button {
+    // height: 20px;
+    // width: 50px;
+    margin-bottom: 20px;
+
+}
+
+input {
+    width: 100px;
+    margin-top: 20px;
+    background-color: honeydew;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+#container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#h2Text {
+    margin-bottom: 20px;
 }
 
