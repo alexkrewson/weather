@@ -19,7 +19,7 @@ function toggleUnits() {
 async function loadJson() {
     const city = document.getElementById('city').value
     const state = document.getElementById('state').value
-    const url = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + state + '&APPID=a9fec7b30dcd9fdba9ec7e45820f9cad';
+    const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + state + '&APPID=a9fec7b30dcd9fdba9ec7e45820f9cad';
     try {
 
         const weatherResponse = await fetch(url, { mode: 'cors' });
