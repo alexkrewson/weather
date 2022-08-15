@@ -2,45 +2,48 @@
 
 <html>
 
-    <head>
-        <title>weather</title>
-        <meta charset="utf-8">
+<head>
+    <title>weather</title>
+    <meta charset="utf-8">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
 
-        <link rel="stylesheet" href="output.css">
-        <!-- <script src="http://localhost:35729/livereload.js"></script> -->
-        <script src='main.js' defer></script>
-    </head>
-    
-
-    <body>
-        <div id="content"></div>
-
-        <!-- <h1 id='h1id'>hellooo</h1> -->
+    <link rel="stylesheet" href="output.css">
+    <!-- <script src="http://localhost:35729/livereload.js"></script> -->
+    <script src='main.js' defer></script>
+</head>
 
 
-        <div id="container">
-            <h1>Please enter city and state:</h1>
-            <input type="text" id="city" name="cityInput">
-            <label for="cityInput">City</label>
+<body>
+    <div id="content"></div>
 
-            <input type="text" id="state" name="stateInput">
-            <label for="stateInput">State</label>
-
-            <button id="btn">Submit</button>
-
-            <button id="units">Toggle Units</button>
-            <h2 id="h2Text"></h2>
-            <img src="" alt="">
+    <!-- <h1 id='h1id'>hellooo</h1> -->
 
 
-        </div>
+    <div id="container">
+        <h1>Please enter city and state:</h1>
+        <input type="text" id="city" name="cityInput">
+        <label for="cityInput">City</label>
+
+        <input type="text" id="state" name="stateInput">
+        <label for="stateInput">State</label>
+
+        <button id="btn">Submit</button>
+
+        <button id="units">Toggle Units</button>
+        <h2 id="h2Text"></h2>
+        <img src="" alt="">
+
+
+    </div>
 
 
 
-        <!-- @if(config('app.env') == 'local')
+    <!-- @if(config('app.env') == 'local')
         <script src="http://localhost:35729/livereload.js"></script>
         @endif -->
 
-    </body>
+</body>
 
 </html>
